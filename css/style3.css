@@ -1,0 +1,736 @@
+/* 清除浏览器样式 */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+/* 清除a标签下划线 */
+a{
+    text-decoration: none;
+}
+
+
+/* 顶部加了大图片背景的模块 */
+.top{
+    position: relative;
+    width: 100%;
+    height: 1039px;
+    background: url(../img3/top/bj.jpg)no-repeat center;
+    background-size: 1920px 100%;
+}
+
+/* 顶部导航 */
+.top1{
+    width: 100%;
+    height: 54px;
+    background-color: #fff;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+}
+/* 游戏列表下拉框 */
+.top1-left{
+    display: inline-block;
+    width: 179px;
+    height: 54px;
+    float: left;
+    background-color: #cf1132;
+    color: #fff;
+    text-align: center;
+    line-height: 54px;
+    font-size: 12px;
+}
+.top1-left-i{
+    display: inline-block;
+    width: 25px;
+    height: 11px;
+    background: url('../img3/jltp.png') -90px -306px no-repeat;
+    margin-right: 8px;
+}
+
+/* logo */
+.logo{
+    display: inline-block;
+    width: 132px;
+    height: 54px;
+    background: url('../img3/logo.png') no-repeat center;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+/* 加入社群，进入官网模块 */
+.top-sq{
+    width: 342px;
+    height: 47px;
+    float: right;
+    margin-right: 20px;
+    z-index: 10;
+}
+.jrsq{
+    display: inline-block;
+    background: url(../img3/top/jrsq.png);
+    width: 171px;
+    height: 47px;
+    float: left;
+    position: relative;
+    z-index: 10;
+}
+.jrsq-1{
+    width: 469px;
+    height: 170px;
+    background: url(../img3/top/jrsq1.png);
+    position: absolute;
+    right: -146px;
+    display: none;
+}
+.jrsq:hover .jrsq-1{
+    display: block;
+}
+.jrgw{
+    display: inline-block;
+    background: url(../img3/top/jrgw.png);
+    width: 171px;
+    height: 47px;
+    float: left;
+}
+
+/* 图片模块 */
+.yys-text{
+    display: inline-block;
+    width: 84px;
+    height: 247px;
+    background: url('../img3/top/a2.webp') no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+.top-gn{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    width: 251px;
+    height: 468px;
+    background: url('../img3/top/a1.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.kf{
+    position: absolute;
+    top: 45px;
+    left: 945px;
+    width: 638px;
+    height: 870px;
+    background: url('../img3/top/a3.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.yd{
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    margin-top: 210px;
+    width: 286px;
+    height: 167px;
+    margin-left: -143px;
+    background: url(https://yys.res.netease.com/pc/fab/20220716142443/img/new/icon-drop_11235da.png) no-repeat center;
+    background-size: 100% 100%;
+    animation:bk 2s infinite linear;
+}
+
+@keyframes bk {
+	0% {
+		transform: translate(0px,0px);
+	}
+	50% {
+		transform: translate(0px,30px);
+	}
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+
+/* 新服集结  */
+
+/* 左模块 */
+.xfjj{
+    width: 100%;
+    height: 676px;
+    background: url('../img3/top/bj2.jpg') no-repeat center;
+    overflow: hidden;
+}
+.xfjj-1{
+    width: 739px;
+    height: 64px;
+    background: url('../img3/xfjj/xfjj.png') no-repeat center;
+    background-size: 100% 100%;
+    margin: 10px auto;
+}
+.xfjj-2{
+    width: 1441px;
+    height: 379px;
+    background: url('../img3/xfjj/main.png')  no-repeat;
+    margin: 109px auto 120px;
+    /* -webkit-transform: translateX(-42px);
+    -moz-transform: translateX(-42px);
+    -ms-transform: translateX(-42px);
+    transform: translateX(-42px); */
+}
+.xfjj-2-1{
+    margin-left: 103px;
+    margin-top: -8px;
+    float: left;
+    width: 378px;
+    position: relative;
+}
+.title{
+    font-size: 0;
+    width: 371px;
+    height: 76px;
+    background: url(https://yys.res.netease.com/pc/fab/20220716142443/img/new/order_tit_f220f2a.png) 0 0 no-repeat;
+    margin-top: 34px;
+}
+.xfjj-2-1-left{
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 110;
+    display: block;
+    width: 88px;
+    height: 88px;
+    background: url('../img3/xfjj/left.png') no-repeat;
+    background-size: 100% 100%;
+}
+.xfjj-2-1-text{
+    position: relative;
+    top: -6px;
+    display: block;
+    padding-left: 110px;
+    font-size: 26px;
+    text-align: center;
+    color: #fffffe;
+}
+.xfjj-2-1-img{
+    position: relative;
+    top: -10px;
+    display: block;
+    font-size: 24px;
+    width: 215px;
+    height: 50px;
+    background: url('../img3/xfjj/ykf.png') no-repeat;
+    background-size: 100% 100%;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    margin-left: 124px;
+    margin-top: 11px;
+}
+.xfjj-2-1-imgtext{
+    width: 352px;
+    height: 85px;
+    background: url('../img3/xfjj/text.png') no-repeat center;
+    margin-top: -10px;
+    margin-left: 14px;
+}
+
+/* 右模块 */
+.xfjj-left-div1{
+    width: 928px;
+    height: 310px;
+    float: left;
+    margin-left: 10px;
+}
+.xfjj-left-div1-top{
+    width: 928px;
+    height: 122px;
+    margin-top: 20px;
+}
+.xfjj-left-sun1{
+    width: 373px;
+    height: 122px;
+    background: url('../img3/xfjj/bk.png');
+    float: left;
+    margin-right: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.xfjj-left-sun2{
+    width: 286px;
+    height: 122px;
+    background: url('../img3/xfjj/bk2.png');
+    float: left;
+    margin-right: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.xfjj-left-sun3{
+    width: 230px;
+    height: 122px;
+    background: url('../img3/xfjj/bk3.png');
+    float: left;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.xfjj-left-div1-top .p1{
+    text-align: center;
+    font-size: 22px;
+    color: #f9dd9b;
+}
+.xfjj-left-div1-top .p2{
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+.xfjj-left-bottom{
+    width: 928px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+.div-hr{
+    width: 668px;
+    height: 8px;
+    border: 1px solid #be6850;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.span-hr{
+    display: block;
+    width: 666px;
+    height: 6px; 
+    background-color: #501c07;
+    border:1px solid #d25312;
+}
+.d1{
+    display: inline-block;
+    width: 5px;
+    height: 12px;
+    background: url('../img3/xfjj/d.png') no-repeat;
+    position: absolute;
+    top: 39px;
+    left: 153px;
+}
+.d2{
+    display: inline-block;
+    width: 5px;
+    height: 12px;
+    background: url('../img3/xfjj/d.png') no-repeat;
+    position: absolute;
+    top: 39px;
+    left: 307px;
+}
+.d3{
+    display: inline-block;
+    width: 5px;
+    height: 12px;
+    background: url('../img3/xfjj/d.png') no-repeat;
+    position: absolute;
+    top: 39px;
+    left: 462px;
+}
+.d4{
+    display: inline-block;
+    width: 5px;
+    height: 12px;
+    background: url('../img3/xfjj/d.png') no-repeat;
+    position: absolute;
+    top: 39px;
+    left: 618px;
+}
+.yvantu1{
+    width: 86px;
+    height: 84px;
+    background: url('../img3/xfjj/bottom1.png') no-repeat;
+    background-size: 100%;
+    margin-top: -45px;
+    margin-right: 73px;
+    margin-left: 30px;
+    float: left;
+}
+.yvantu2{
+    width: 86px;
+    height: 84px;
+    background: url('../img3/xfjj/bottom2.png') no-repeat;
+    background-size: 100%;
+    margin-top: -45px;
+    margin-right: 68px;
+    float: left;
+}
+.yvantu3{
+    width: 86px;
+    height: 84px;
+    background: url('../img3/xfjj/bottom3.png') no-repeat;
+    background-size: 100%;
+    margin-top: -45px;
+    margin-right: 68px;
+    float: left;
+}
+.yvantu4{
+    width: 86px;
+    height: 84px;
+    background: url('../img3/xfjj/bottom4.png') no-repeat;
+    background-size: 100%;
+    margin-top: -45px;
+    margin-right: 68px;
+    float: left;
+}
+.yvantu5{
+    width: 86px;
+    height: 84px;
+    background: url('../img3/xfjj/bottom5.png') no-repeat;
+    background-size: 100%;
+    margin-top: -50px;
+    float: left;
+}
+.xfjj-left-bottom-text1{
+    color: #fff;
+    position: absolute;
+    font-size: 12px;
+    top: 90px;
+    left: 50px;
+}
+
+.xfjj-left-bottom-text2{
+    color: #fff;
+    position: absolute;
+    font-size: 12px;
+    top: 90px;
+    left: 205px;
+}
+
+.xfjj-left-bottom-text3{
+    color: #fff;
+    position: absolute;
+    font-size: 12px;
+    top: 90px;
+    left: 360px;
+}
+
+.xfjj-left-bottom-text4{
+    color: #fff;
+    position: absolute;
+    font-size: 12px;
+    top: 90px;
+    left: 515px;
+}
+
+.xfjj-left-bottom-text5{
+    color: #fff;
+    position: absolute;
+    font-size: 12px;
+    top: 90px;
+    left: 670px;
+}
+.bk-1{
+    width: 147px;
+    height: 28px;
+    background: url('../img3/xfjj/bk-2.png') no-repeat;
+    position: absolute;
+    bottom: 10px; 
+}
+.bk-2{
+    width: 147px;
+    height: 28px;
+    background: url('../img3/xfjj/bk-2.png') no-repeat;
+    position: absolute;
+    bottom: 10px; 
+    left: 155px;
+}
+.bk-3{
+    width: 147px;
+    height: 28px;
+    background: url('../img3/xfjj/bk-2.png') no-repeat;
+    position: absolute;
+    bottom: 10px; 
+    left: 310px;
+}
+
+.bk-4{
+    width: 147px;
+    height: 28px;
+    background: url('../img3/xfjj/bk-2.png') no-repeat;
+    position: absolute;
+    bottom: 10px; 
+    left: 465px;
+}
+
+.bk-5{
+    width: 147px;
+    height: 28px;
+    background: url('../img3/xfjj/bk-2.png') no-repeat;
+    position: absolute;
+    bottom: 10px; 
+    left: 620px;
+}
+.rt{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../img3/xfjj/rt.png') no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 6px;
+    left: 25px;
+}
+.bk-1-sun{
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffeed5;
+    position: absolute;
+    top: 3px;
+    left: 44px;
+}
+.xcx{
+    width: 170px;
+    height: 96px;
+    background: url('../img3/xfjj/xcx.png') no-repeat;
+    position: absolute;
+    right: -6px;
+    top: 25px;
+}
+
+
+
+
+
+/* 主要内容 */
+main{
+    width: 100%;
+    height: 2131px;
+    background: url('../img3/top/bj3.jpg') no-repeat center;
+    background-size: 1920px 100%;
+    overflow: hidden;
+}
+.main-top{
+    width: 739px;
+    height: 64px;
+    background: url('../img3/main/xbbqb.png') no-repeat center;
+    background-size: 100% 100%;
+    margin: 10px auto;
+}
+.main-div1{
+    width: 1303px;
+    margin: 20px auto;
+}
+
+/* 鬼女红叶模块 */
+.main-div-1{
+    width: 1192px;
+    height: 619px;
+    background: url('../img3/main/main1.png') no-repeat center;
+    background-size: 100% 100%;
+    margin-top: 55px;
+    position: relative;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* 模糊背景 */
+.mhbj{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 888;
+    display: none;
+}
+button{
+    border: none;
+}
+/* 鬼女红叶弹窗 */
+.ljgd1-1{
+    width: 1155px;
+    height: 800px;
+    background: url('../img3/main/tc.png') no-repeat center;
+    background-size: 100% 100%;
+    position: fixed;
+    left: 10%;
+    top: 5%;
+    z-index: 999;
+    display: none;
+}
+.ljgd1-1-1{
+    width: 76px;
+    height: 76px;
+    background: url('../img3/main/x.png') no-repeat;
+    position: absolute;
+    top: 40px;
+    right: -30px;
+}
+
+
+
+.ljgd1-2{
+    width: 1155px;
+    height: 730px;
+    background: url('../img3/main/tc2.png') no-repeat center;
+    background-size: 100% 100%;
+    position: fixed;
+    left: 13%;
+    top: 4%;
+    z-index: 999;
+    display: none;
+}
+.ljgd1-2-1{
+    width: 76px;
+    height: 76px;
+    background: url('../img3/main/x.png') no-repeat;
+    position: absolute;
+    top: 40px;
+    right: -30px;
+}
+
+
+
+.ljgd1-3{
+    width: 1155px;
+    height: 800px;
+    background: url('../img3/main/tc3.png') no-repeat center;
+    background-size: 100% 100%;
+    position: fixed;
+    left: 10%;
+    top: 0%;
+    z-index: 999;
+    display: none;
+}
+.ljgd1-3-1{
+    width: 76px;
+    height: 76px;
+    background: url('../img3/main/x.png') no-repeat;
+    position: absolute;
+    top: 40px;
+    right: -30px;
+}
+
+
+
+
+.ljgd1-4{
+    width: 1280px;
+    height: 730px;
+    background: url('../img3/main/tc4.png') no-repeat center;
+    background-size: 100% 100%;
+    position: fixed;
+    left: 5%;
+    top: 2%;
+    z-index: 999;
+    display: none;
+}
+.ljgd1-4-1{
+    width: 76px;
+    height: 76px;
+    background: url('../img3/main/x.png') no-repeat;
+    position: absolute;
+    top: 40px;
+    right: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-div-2{
+    width: 1193px;
+    height: 448px;
+    background: url('../img3/main/mian2.png') no-repeat center;
+    background-size: 100% 100%;
+    margin-top: -119px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.main-div-3{
+    width: 1192px;
+    height: 592px;
+    background: url('../img3/main/main3.png') no-repeat center;
+    background-size: 100% 100%;
+    margin-top: -70px;
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-div-4{
+    width: 1193px;
+    height: 497px;
+    background: url('../img3/main/main4.png') no-repeat center;
+    background-size: 100% 100%;
+    margin-top: -108px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.main-div-1-span{
+    position: absolute;
+    width: 227px;
+    height: 195px;
+    bottom: 133px;
+    right: -96px;
+    background: url('../img3/main/main1-1.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.ljgd1{
+    position: absolute;
+    width: 194px;
+    height: 46px;
+    top: 333px;
+    left: 602px;
+    background: url('../img3/main/ljgd.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.ljgd2{
+    position: absolute;
+    width: 194px;
+    height: 46px;
+    top: 293px;
+    left: 78px;
+    background: url('../img3/main/ljgd.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.ljgd3{
+    position: absolute;
+    width: 194px;
+    height: 46px;
+    top: 365px;
+    left: 606px;
+    background: url('../img3/main/ljgd.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.ljgd4{
+    position: absolute;
+    width: 194px;
+    height: 46px;
+    top: 339px;
+    left: 77px;
+    background: url('../img3/main/ljgd.png') no-repeat center;
+    background-size: 100% 100%;
+}
